@@ -14,6 +14,7 @@ GEM
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
     atomos (0.1.3)
+    bigdecimal (3.1.6)
     claide (1.1.0)
     cocoapods (1.14.3)
       addressable (~> 2.8)
@@ -67,6 +68,7 @@ GEM
     json (2.7.1)
     minitest (5.21.2)
     molinillo (0.8.0)
+    mutex_m (0.2.0)
     nanaimo (0.3.0)
     nap (1.1.0)
     netrc (0.11.0)
@@ -90,7 +92,9 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (>= 6.1.7.3, < 7.1.0)
+  bigdecimal
   cocoapods (~> 1.13)
+  mutex_m
 
 RUBY VERSION
    ruby 3.3.0p0
